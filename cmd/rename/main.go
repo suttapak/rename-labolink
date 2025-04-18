@@ -61,7 +61,7 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			newName = strings.ReplaceAll(LabolinkHl7TranferExe, "TRANFER", fmt.Sprintf("TRANFER_%s", strings.ToUpper(name)))
+			newName = strings.ReplaceAll(LabolinkHl7TranferExe, "TRANSFER", fmt.Sprintf("TRANSFER_%s", strings.ToUpper(name)))
 			if err := os.Rename(path, newName); err != nil {
 				log.Fatal(err)
 			}
@@ -70,7 +70,7 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			newName = strings.ReplaceAll(LabolinkHl7TranferWExe, "TRANFER", fmt.Sprintf("TRANFER_%s", strings.ToUpper(name)))
+			newName = strings.ReplaceAll(LabolinkHl7TranferWExe, "TRANSFER", fmt.Sprintf("TRANSFER_%s", strings.ToUpper(name)))
 			if err := os.Rename(path, newName); err != nil {
 				log.Fatal(err)
 			}
@@ -94,7 +94,7 @@ func main() {
 			}
 
 			text = string(content)
-			text = strings.ReplaceAll(text, "RECIVER", strings.ToUpper(name))
+			text = strings.ReplaceAll(text, "TRANSFER", strings.ToUpper(name))
 			if err := os.WriteFile(InstallTranferFile, []byte(text), os.ModePerm); err != nil {
 				log.Fatal(err)
 			}
