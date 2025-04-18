@@ -11,7 +11,7 @@ import (
 )
 
 // Version is manually updated when creating a new tag
-var Version = "v0.1.1"
+var Version = "v0.1b"
 
 const (
 	LabolinkHl7ReciverExe  = "LABOLINK_HL7_RECIVER.exe"
