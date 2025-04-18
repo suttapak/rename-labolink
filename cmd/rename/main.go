@@ -16,8 +16,8 @@ var Version = "v0.1b"
 const (
 	LabolinkHl7ReciverExe  = "LABOLINK_HL7_RECIVER.exe"
 	LabolinkHl7ReciverWExe = "LABOLINK_HL7_RECIVERw.exe"
-	LabolinkHl7TranferExe  = "LABOLINK_HL7_TRANFER.exe"
-	LabolinkHl7TranferWExe = "LABOLINK_HL7_TRANFERw.exe"
+	LabolinkHl7TranferExe  = "LABOLINK_HL7_TRANSFER.exe"
+	LabolinkHl7TranferWExe = "LABOLINK_HL7_TRANSFERw.exe"
 	InstallFile            = "install.bat"
 	InstallTranferFile     = "install-tranfer.bat"
 )
